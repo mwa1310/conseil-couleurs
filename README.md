@@ -88,17 +88,17 @@ App_Conseil/
 ### Cloner le dépôt
 
 ```bash
-git clone https://github.com/<votre-username>/app-conseil-couleurs.git
+git clone https://github.com/mwa1310/app-conseil-couleurs.git
 cd app-conseil-couleurs
 ```
 
 ### Installer les dépendances
 
 ```bash
-pip install pillow
+pip install -r requirements.txt
 ```
 
-> SQLite3 est inclus nativement dans Python, aucune installation supplémentaire n'est nécessaire.
+> SQLite3 et les autres dépendances sont inclus nativement dans Python, aucune installation supplémentaire n'est nécessaire.
 
 ### Lancer l'application
 
